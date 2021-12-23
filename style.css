@@ -832,13 +832,18 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    /*rdx background-color: rgba(165, 147, 99, 0.7);*/ background-color: #ffbb7d; color:#303030;
     padding: 40px 40px 40px 40px;
 }
 
 .bold-link {
     font-weight: 900;
     text-decoration: underline!important;
+}
+/* test rdx */
+a.ltc-white:hover{
+	background-color: #c27956;
+	color: #FFFFFF!important;
 }
 
 .bgc-white {
@@ -854,7 +859,7 @@ h4 {
 }
 
 .tc-white {
-    /*color: #F3976C!important; test rdx color: #ffbb7d!important;*/color:#FFFF!important;
+    /*color: #F3976C!important; test rdx color: #ffbb7d!important;*//*rdxcolor:#FFFF!important;*/background-color:#ffbb7d;color:#303030!important;
 }
 .tc-darkgrey {
     color:#303030!important; /*rdx à vérifier*/
@@ -873,7 +878,7 @@ h4 {
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    /*rdxcolor: #FFFFFF!important;*/background-color:#ffbb7d;color:#303030!important;
 }
 
 .ltc-white:hover {
